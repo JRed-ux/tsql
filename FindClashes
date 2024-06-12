@@ -1,0 +1,3 @@
+SELECT A.trainerid, A.starttime, A.endtime
+from TableA A
+inner join TableA B on B.trainerid=A.trainerid and A.starttime > b.Starttime and A.starttime between B.starttime and B.endtime
